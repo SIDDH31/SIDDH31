@@ -33,11 +33,10 @@
 user: Siddh Goda
 role: Machine Learning & Full-Stack Developer
 focus: Deep Learning, NLP, Intelligent Systems & Data Analytics
-location: India 🇮🇳
 passion: Bridging the gap between complex AI models and production web systems
 ```
 
-- 🔭 **Data Science & ML:** Architecting end-to-end ML & Deep Learning pipelines, specialized in **Natural Language Processing (NLP)** and predictive modeling.
+- 🎓 **Data Science & ML:** Architecting end-to-end ML & Deep Learning pipelines, specialized in **Natural Language Processing (NLP)** and predictive modeling.
 - 💻 **Full-Stack Engineering:** Designing scalable APIs and reactive frontends with **FastAPI, React, and MySQL**.
 - 📊 **Data Intelligence:** Transforming complex datasets into actionable insights using **Power BI, Advanced Excel, and relational queries**.
 - 🚀 **Problem Solving:** Passionate about clean code, scalable architecture, and deploying high-impact AI solutions.
@@ -156,7 +155,7 @@ passion: Bridging the gap between complex AI models and production web systems
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SIDDH31/SIDDH31/output/github-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SIDDH31/SIDDH31/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SIDDH31/SIDDH31/output/github-snake.svg">
     <img alt="Siddh's GitHub Contribution Snake" src="https://raw.githubusercontent.com/SIDDH31/SIDDH31/output/github-snake.svg" width="100%" />
   </picture>

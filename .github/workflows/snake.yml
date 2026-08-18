@@ -14,13 +14,19 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: SIDDH31
           outputs: |
             dist/github-snake.svg?color_snake=#ffffff&color_dots=#ebe1d3,#c4a274,#8b5e34,#5c3d1e,#3a2314
-            dist/github-snake-dark.svg?color_snake=#ffffff&color_dots=#ebe1d3,#c4a274,#8b5e34,#5c3d1e,#3a2314
+            dist/github-snake-dark.svg?color_snake=#ffffff&color_dots=#1f140e,#5c3d1e,#8b5e34,#c4a274,#ebe1d3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
